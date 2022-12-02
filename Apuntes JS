@@ -1,0 +1,43 @@
+           ******************************************* PROPIEDADES *******************************************
+0) .innerHTML -> Para sobre-esscribir texto en un elemento
+1) .value ->  Para acceder al contenido de los input
+2) .substr()->  Para obtener un troso de un string
+3) .substring(1,2)-> Para obtener un troso de un string, el primer digito nos indica donde iniciar a obtener y 
+    el segundo nos dice que cantidad tomar substr y substring son lo mismo.
+
+4) .toLowerCase()->  Poner en minuscula
+5) .toUppeCase()->   Poner en mayuscula
+6) .random()->  Para obtener un numero aleatorio entre 0 y n (n = a un numero que nosotros le daremos,
+    el random da decimales y para eliminarlos  usamos "Math.floor()"
+
+7) .onkeydown -> es para detectar y guardar que tecla han pulsado en el teclado, se usa en los input
+8) .key -> es para saber que tecla se pulso en teclado, se usa en funciones
+9) .insertAdjacentHTML -> Para insertar texto en un elemento, sin sobre-escribir
+10) .
+11) .
+12) .
+13) .
+14) .
+15) .
+16) .
+17) .
+18) .
+19) .
+20) .
+
+
+           ******************************************* USOS *******************************************
+
+0 => document.querySelector("").innerHTML="texto";
+1 => let valor=document.querySelector("").value();
+2 => texto.substr(2,5);
+4 => texto.toLowerCase();
+5 => texto.toUpperCase();
+6 => let numero=  Math.floor(Math.random()*20);
+7 => document.querySelector("#input2").onkeydown=funcion;
+8 => if(e.key=="Enter"){.....codigo......}
+
+
+************** CODIGOS JS REPETITIVOS ********************
+
+document.querySelector("body").insertAdjacentHTML("beforeend",``)
